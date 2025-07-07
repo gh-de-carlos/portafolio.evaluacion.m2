@@ -1,0 +1,65 @@
+/* IMPORTS, VARIABLES & MICRO RESET */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+:root {
+  --gap: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  font-family: "Open Sans", sans-serif;
+  color: #e0e0e0;
+}
+
+.logo {
+  width: clamp(30px, 4vw, 70px);
+}
+
+.navbar-brand {
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: white;
+  background: linear-gradient(90deg, #9d016e, #feec00, #9d016e);
+  background-size: 300% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: titulocool 10s infinite ease-in-out;
+}
+
+@keyframes titulocool {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+
+
+}
+
+.content-background {
+  background-color: #00000088;
+
+}
+
+.footer {
+  background: linear-gradient(#00192ecc, #000000dd);
+}
+
+.footer__img {
+  width: 20px;
+  border-radius: 16px;
+}
+
+.fa-brands {
+  color: #e0e0e0;
+}
