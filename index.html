@@ -39,26 +39,25 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link" href="#">Sobre mí</a>
-            <a class="nav-link" href="#">Conversemos</a>
+            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#aboutMe">Sobre mí</a>
+            <a class="nav-link" href="#" link-disabled>Conversemos</a>
           </div>
         </div>
       </div>
     </nav>
-    <main class="container pb-5 flex-grow-1">
+    <main class="container pb-5 flex-grow-1 d-flex flex-column justify-content-center">
       <h1 class="mb-2 fs-4 mt-0">¿Qué hago?</h1>
-      <div class="content-background p-5 rounded-5 lh-base">
+      <div class="content-background p-5 rounded-5 lh-base flex-grow-1">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 align-items-center">
           <div class="col bg-transparent rounded-3">
             <div class="card bg-transparent border-0" title="Click me!👇" data-bs-toggle="tooltip">
               <div class="card-body">
                 <img class="img-fluid" src="./assets/img/card-lugares.png" alt="">
               </div>
-              <div class="detail p-3">
+              <div class="detail p-3 rounded-3">
                 <h1 class="detail__title text-center fs-4">Lugares del mundo</h1>
                 <p class="">Es una galería minimalista de imágenes que nos llevan a reflexionar en lo hermoso que puede ser nuestro hogar.</p>
                 <a href="https://gh-de-carlos.github.io/galeria-imagenes-fullstack25-m2ae6solo/" target="_blank">Ver en GitHub</a>
-                <ul>
               </div>
             </div>
           </div>
@@ -67,7 +66,7 @@
               <div class="card-body">
                 <img class="img-fluid" src="./assets/img/card-securenet.png" alt="">
               </div>
-              <div class="detail p-3">
+              <div class="detail p-3 rounded-3">
                 <h1 class="detail__title text-center fs-4">SecureNet</h1>
                 <p class="">Website para SecureNet, compañía dedicada a aumentar el valor del recurso humano a través del entrenamiento en seguridad digital.</p>
                 <a href="https://gh-de-carlos.github.io/securenet.evaluacion.m2/" target="_blank">Ver en GitHub</a>
@@ -79,7 +78,7 @@
               <div class="card-body">
                 <img class="img-fluid" src="./assets/img/card-carrito.png" alt="">
               </div>
-              <div class="detail p-3">
+              <div class="detail p-3 rounded-3">
                 <h1 class="detail__title text-center fs-4">Carrito de Compras</h1>
                 <p class="">Un entretenido ejercicio de Javascript que simula a un usuario comprando en un supermercado.</p>
                 <a href="https://gh-de-carlos.github.io/ae2-team_carrito-compras/" target="_blank">Ver en GitHub</a>
@@ -89,13 +88,28 @@
         </div>
       </div>
     </main>
-    
     <footer class="container-fluid footer text-center d-flex align-items-center py-4">
-      <p class="flex-grow-1 ms-lg-5"> Made with <i class="fa-solid fa-heart mx-1"></i> by 8Fold <!-- <img src="./assets/img/footer.png" class="footer__img" alt="the eightfold way"> -->
-      </p>
+      <p class="flex-grow-1 ms-lg-5"> Made with <i class="fa-solid fa-heart mx-1"></i> by 8Fold</p>
       <p class="footer__contactus me-5 fs-6">Contact us <a href="https://github.com/gh-de-carlos"><i class="fa-brands fa-github ms-1"></i></a></p>
     </footer>
+    <!-- MODAL ABOUT ME -->
+    <div class="modal fade" tabindex="-1" id="aboutMe">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"><img src="./favicon.png" alt="logo de 8Fold" style="width: 24px; border-radius: 50%;"> ¿8Fold? <img src="./favicon.png" alt="logo de 8Fold" style="width: 24px; border-radius: 50%;"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>¡Hola! Soy Carlos, desarrollador que alucina con la tecnología y el mundo digital. Admirador del poder y alcance de estas como herramientas de cambio en la calidad de vida de las personas, particularmente aquellas que no tienen acceso a soportes físicos. ...seguir </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END MODAL ABOUT ME -->
   </body>
-  <!-- lh-1 sm base lg -->
 
 </html>

@@ -22,18 +22,14 @@ Requerimientos Funcionales Mínimos Esperados
 
 ## 👀 NOTAS
 
+- Aún no estoy completamente seguro de cómo realizaré mi portafolio, por lo que este es el primer intento de darle forma.
+- Siguiendo mis primeras ideas, quiero una vista desktop-first que evolucione bien en mobile, pero no será punto de partida. 
 - Se ha incluido jQuery para realizar controlar algunas animaciones frente al evento 'click'.
 - Se han agregado tooltips para trabajar con elementos de Bootstrap que requieren habilitación de tipo "opt-in" con Javascript.
-- Aún no estoy completamente seguro de cómo realizaré mi portafolio, por lo que este es el primer intento de darle forma.
-- Si tengo claro hasta ahora un conceptos fundamental para mi: una vista, no scroll.
 
 ## TODO 
 
-- ‼️ falta modificar el tamaño del container principal en mobile
-- ‼️ quizás es mejor trabajar todo el main con css grid directamente
-- ‼️ Hacer un modal simple de Bootstrap.
-
-
+- ‼️ falta trabajar la vista mobile
 
 ## 📁 ESTRUCTURA GENERAL DEL PROYECTO
 

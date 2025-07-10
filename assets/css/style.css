@@ -42,19 +42,17 @@ body {
   min-height: fit-content;
 }
 
-.card {
+.col {
   position: relative;
 }
 
-
 .card-body, 
 .detail {
-  /* display: none; */
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  transition: opacity 0.8s ease, z-index 0s 0.8s;
+  transition: opacity 0.8s ease, z-index 0s 0.8s ease;
 }
 
 .detail {
@@ -69,6 +67,7 @@ body {
   opacity: 1;
   z-index: 2;
   pointer-events: auto;
+  box-shadow: 0 0 4px 4px white;
 }
 
 .card.active .card-body {
@@ -100,7 +99,7 @@ body {
   left: 0;
   content: "💞";
   font-size: 1.5rem;
-  animation: flotar 1.5s ease-out forwards;
+  animation: flotar 1s ease-out forwards;
   transform-origin: center;
 }
 
@@ -118,7 +117,7 @@ body {
     font-size: 1.25rem;
   }
   100% { 
-    transform: translateY(-150px) rotateY(540deg);
+    transform: translateY(-150px) rotateY(900deg);
     opacity: 0;
     font-size: 0.25rem;
   }
