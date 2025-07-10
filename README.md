@@ -1,4 +1,4 @@
-# <img src="favicon.png" width=30/> Módulo 2 - Evaluación del portafolio del módulo 2 <img src="favicon.png" width=30/> 
+# <img src="favicon.png" width=30 style="border-radius:8px;"/> Módulo 2 - Evaluación del portafolio del módulo 2 <img src="favicon.png" width=30 style="border-radius:8px;"/> 
 
 ![mockup o entrega del ejercicio][0]
 
@@ -10,16 +10,30 @@ Recuerda que este proyecto irá directamente al registro de evidencia de tu port
 
 
 ## 👉 INSTRUCCIONES
-✅ ❓
 
 Requerimientos Funcionales Mínimos Esperados
 
-* ✅ Utilizar el lenguaje de etiquetas html5 para la estructuración del contenido de una página web básica acorde a un requerimiento entregado entregado.
-* ✅ Aplicar hojas de estilo CSS básicas distinguiendo elementos de responsividad para personalizar la presentación de un documento HTML acorde a un requerimiento entregado
-* ✅ Implementar un sitio web básico responsivo utilizando framework Bootstrap para organizar la presentación de un documento html.
-* Utilizar código Javascript para la personalización de eventos sencillos dentro de un documento html dando solución al problema planteado
-* Utilizar biblioteca JQuery para la incorporación de elementos dinámicos en un documento html mediante el manejo básico de objetos y eventos del DOM.
-* ✅ Gestionar el código fuente de un proyecto utilizando GitHub para mantener un repositorio de código remoto seguro y permitir trabajo concurrente
+* ✔️ Utilizar el lenguaje de etiquetas html5 para la estructuración del contenido de una página web básica acorde a un requerimiento entregado entregado.
+* ✔️ Aplicar hojas de estilo CSS básicas distinguiendo elementos de responsividad para personalizar la presentación de un documento HTML acorde a un requerimiento entregado
+* ✔️ Implementar un sitio web básico responsivo utilizando framework Bootstrap para organizar la presentación de un documento html.
+* ✔️Utilizar código Javascript para la personalización de eventos sencillos dentro de un documento html dando solución al problema planteado
+* ✔️Utilizar biblioteca JQuery para la incorporación de elementos dinámicos en un documento html mediante el manejo básico de objetos y eventos del DOM.
+* ✔️ Gestionar el código fuente de un proyecto utilizando GitHub para mantener un repositorio de código remoto seguro y permitir trabajo concurrente
+
+## 👀 NOTAS
+
+- Se ha incluido jQuery para realizar controlar algunas animaciones frente al evento 'click'.
+- Se han agregado tooltips para trabajar con elementos de Bootstrap que requieren habilitación de tipo "opt-in" con Javascript.
+- Aún no estoy completamente seguro de cómo realizaré mi portafolio, por lo que este es el primer intento de darle forma.
+- Si tengo claro hasta ahora un conceptos fundamental para mi: una vista, no scroll.
+
+## TODO 
+
+- ‼️ falta modificar el tamaño del container principal en mobile
+- ‼️ quizás es mejor trabajar todo el main con css grid directamente
+- ‼️ Hacer un modal simple de Bootstrap.
+
+
 
 ## 📁 ESTRUCTURA GENERAL DEL PROYECTO
 
@@ -35,11 +49,6 @@ Requerimientos Funcionales Mínimos Esperados
     └── 📁utils/  
 ```
 
-## 👀 NOTAS
-
-- La inclusión de jQuery y se ha hecho solo para cumplir con los requerimientos de la entrega. 
-- Aún no estoy completamente seguro de cómo realizaré mi portafolio, por lo que este es el primer intento de darle forma.
-- Si tengo claro hasta ahora un conceptos fundamental para mi: una vista, no scroll.
 
 ## 📖 DOCUMENTACIÓN CONSULTADA
 

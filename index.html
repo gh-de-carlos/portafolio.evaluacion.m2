@@ -22,6 +22,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/d4e102f18b.js" crossorigin="anonymous"></script>
+    <script defer src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script defer src="./assets/js/main.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="favicon.png?v2" type="image/png">
@@ -44,34 +45,44 @@
         </div>
       </div>
     </nav>
-    <main class="container pb-5">
+    <main class="container pb-5 flex-grow-1">
+      <h1 class="mb-2 fs-4 mt-0">¿Qué hago?</h1>
       <div class="content-background p-5 rounded-5 lh-base">
-        <h1 class="mb-2">¿Qué hago?</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 align-items-center">
           <div class="col bg-transparent rounded-3">
-            <div class="card bg-transparent border-0">
+            <div class="card bg-transparent border-0" title="Click me!👇" data-bs-toggle="tooltip">
               <div class="card-body">
-                <a href="https://gh-de-carlos.github.io/galeria-imagenes-fullstack25-m2ae6solo/" target="_blank">
-                  <img class="img-fluid" src="./assets/img/card-lugares.png" alt="">
-                </a>
+                <img class="img-fluid" src="./assets/img/card-lugares.png" alt="">
+              </div>
+              <div class="detail p-3">
+                <h1 class="detail__title text-center fs-4">Lugares del mundo</h1>
+                <p class="">Es una galería minimalista de imágenes que nos llevan a reflexionar en lo hermoso que puede ser nuestro hogar.</p>
+                <a href="https://gh-de-carlos.github.io/galeria-imagenes-fullstack25-m2ae6solo/" target="_blank">Ver en GitHub</a>
+                <ul>
               </div>
             </div>
           </div>
           <div class="col bg-transparent rounded-3">
-            <div class="card bg-transparent border-0">
+            <div class="card bg-transparent border-0" title="Click me!👇" data-bs-toggle="tooltip">
               <div class="card-body">
-                <a href="https://gh-de-carlos.github.io/securenet.evaluacion.m2/" target="_blank">
-                  <img class="img-fluid" src="./assets/img/card-securenet.png" alt="">
-                </a>
+                <img class="img-fluid" src="./assets/img/card-securenet.png" alt="">
+              </div>
+              <div class="detail p-3">
+                <h1 class="detail__title text-center fs-4">SecureNet</h1>
+                <p class="">Website para SecureNet, compañía dedicada a aumentar el valor del recurso humano a través del entrenamiento en seguridad digital.</p>
+                <a href="https://gh-de-carlos.github.io/securenet.evaluacion.m2/" target="_blank">Ver en GitHub</a>
               </div>
             </div>
           </div>
           <div class="col bg-transparent rounded-3">
-            <div class="card bg-transparent border-0">
+            <div class="card bg-transparent border-0" title="Click me!👇" data-bs-toggle="tooltip">
               <div class="card-body">
-                <a href="https://gh-de-carlos.github.io/ae2-team_carrito-compras/" target="_blank">
-                  <img class="img-fluid" src="./assets/img/card-carrito.png" alt="">
-                </a>
+                <img class="img-fluid" src="./assets/img/card-carrito.png" alt="">
+              </div>
+              <div class="detail p-3">
+                <h1 class="detail__title text-center fs-4">Carrito de Compras</h1>
+                <p class="">Un entretenido ejercicio de Javascript que simula a un usuario comprando en un supermercado.</p>
+                <a href="https://gh-de-carlos.github.io/ae2-team_carrito-compras/" target="_blank">Ver en GitHub</a>
               </div>
             </div>
           </div>

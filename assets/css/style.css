@@ -37,16 +37,46 @@ body {
   animation: titulocool 15s infinite ease-in-out;
 }
 
-@keyframes titulocool {
-  0%   { background-position: 0% 50%; }
-  50%  { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
 .content-background {
   background-color: #00000088;
-
+  min-height: fit-content;
 }
+
+.card {
+  position: relative;
+}
+
+
+.card-body, 
+.detail {
+  /* display: none; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: opacity 0.8s ease, z-index 0s 0.8s;
+}
+
+.detail {
+  opacity: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: #000000aa;
+  color: white;
+}
+
+.card.active .detail {
+  opacity: 1;
+  z-index: 2;
+  pointer-events: auto;
+}
+
+.card.active .card-body {
+  opacity: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
 
 .footer {
   background: linear-gradient(#00192ecc, #000000dd);
@@ -59,4 +89,37 @@ body {
 
 .fa-brands {
   color: #e0e0e0;
+}
+
+.fa-heart {
+  position: relative;
+}
+
+.fa-heart:hover::after {
+  position: absolute;
+  left: 0;
+  content: "💞";
+  font-size: 1.5rem;
+  animation: flotar 1.5s ease-out forwards;
+  transform-origin: center;
+}
+
+/* ANIMACIONES */
+@keyframes titulocool {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes flotar {
+  0% { 
+    transform: translateY(0) rotateY(0deg);
+    opacity: 1;
+    font-size: 1.25rem;
+  }
+  100% { 
+    transform: translateY(-150px) rotateY(540deg);
+    opacity: 0;
+    font-size: 0.25rem;
+  }
 }
